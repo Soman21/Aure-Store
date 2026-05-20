@@ -1,31 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aure Store</title>
-      <link href="output.css" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auré - Women’s Collection</title>
+  <link href="./output.css" rel="stylesheet">
 </head>
-<body>
 
-    <nav>
+<body class="bg-gray-50">
 
-        <header class="bg-white">
-        <nav aria-label="Global" class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
-          
+  <!-- NAVBAR -->
+  <header class="flex justify-between items-center p-4 bg-white shadow-sm">
+    <h1 class="text-xl font-bold">Auré</h1>
 
-        <div></div>
-        <a href="#" class="text-sm/6 font-semibold text-gray-900">Features</a>
-        <a href="#" class="text-sm/6 font-semibold text-gray-900">Marketplace</a>
-        <a href="#" class="text-sm/6 font-semibold text-gray-900">Company</a>
-        
-        </nav>
-        
-        </header>
+    <div class="relative cursor-pointer">
+      🛒
+      <span class="absolute -top-2 -right-2 bg-black text-white text-xs rounded-full px-2">
+        0
+      </span>
+    </div>
+  </header>
 
-        </nav>
+  <!-- PAGE TITLE -->
+  <section class="p-4">
+    <h2 class="text-2xl font-semibold">Women’s Collection</h2>
+    <p class="text-gray-500 text-sm">Discover premium active wear</p>
+  </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
+  <!-- PRODUCT GRID -->
+  <main class="max-w-7xl mx-auto p-4">
+    <div id="product-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+      <!-- PRODUCT CARD (template) -->
+      
+
+    </div>
+  </main>
+
+  <!-- CART SIDEBAR (hidden for now) -->
+  <aside id="cart" class="hidden fixed top-0 right-0 w-80 h-full bg-white shadow-lg p-4">
+    <h2 class="text-lg font-semibold">Your Cart</h2>
+
+    <div class="mt-4 text-gray-500">
+      Cart is empty
+    </div>
+  </aside>
+    <script src="../script.js"></script>
 </body>
 </html>
